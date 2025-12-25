@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nuthi Sai Aditya | Portfolio</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #1a1d23;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #3b82f6;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Inter", system-ui, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h1, h2 {
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .location {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .socials a {
+      margin-right: 18px;
+      font-size: 22px;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: var(--accent);
+    }
+
+    .resume-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: var(--accent);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 20px;
+      margin-top: 16px;
+    }
+
+    .edu-card {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .edu-logo {
+      width: 70px;
+      height: 70px;
+      background: white;
+      border-radius: 10px;
+      padding: 6px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    /* ACTIVITIES */
+    .activity-header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 10px;
+    }
+
+    .activity-logo {
+      width: 120px;
+      height: 80px;
+      object-fit: contain;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <img src="ppfp.jpg" class="avatar">
+    <div>
+      <h1>NUTHI SAI ADITYA</h1>
+      <p class="location">🌍 India</p>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/adit8a.07/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nuthi-sai-aditya-92186a281/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/adityanuthi?s=21" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      </div>
+
+      <a href="resume.pdf" class="resume-btn" target="_blank">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="card">
+    <ul>
+      <li>Passionate about software development</li>
+      <li>Cloud & DevOps enthusiast</li>
+      <li>Blockchain learner</li>
+      <li>Linux power user</li>
+    </ul>
+  </div>
+
+  <!-- EDUCATION -->
+  <h2>Education</h2>
+  <div class="card edu-card">
+    <img src="clg.png" class="edu-logo">
+    <div>
+      <h3>Marri Laxman Reddy Institute of Technology & Management</h3>
+      <p>B.Tech – Computer Science (AI & ML) — 2023–2027</p>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">C</div>
+    <div class="card">Python</div>
+    <div class="card">Java</div>
+    <div class="card">HTML</div>
+  </div>
+
+  <!-- PROJECTS -->
+  <h2>Projects</h2>
+  <div class="card">
+    <b>Attendance Calculator</b>
+    <ul><li>Web-based attendance system</li></ul>
+  </div>
+
+  <div class="card">
+    <b>Vault Hub</b>
+    <ul><li>Personal productivity web app</li></ul>
+  </div>
+
+  <!-- ACTIVITIES -->
+  <h2>Activities</h2>
+
+  <div class="card">
+    <div class="activity-header">
+      <img src="club64.jpeg" class="activity-logo">
+      <h3>MEMBER OF CLUB 64 – MLRITM</h3>
+    </div>
+    <ul>
+      <li>I am an active member of the Cultural Club at my college, where I actively participate in organizing and managing cultural events, fests, and student engagement activities. Being part of the cultural club helped me improve my teamwork, leadership, and communication skills while contributing to a vibrant campus environment. It also gave me the opportunity to collaborate with students from different backgrounds and showcase creativity beyond academics.</li>
+   
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>VOLUNTEER IN SMART INDIA HACKATHON (SIH) – MLRITM</h3>
+    <p>
+     Actively volunteered during the Smart India Hackathon, assisting in event management, participant coordination, and technical support. Worked closely with organizing members and participants to ensure smooth execution of the hackathon. This experience enhanced my teamwork, leadership, and problem-solving abilities while giving exposure to real-world innovation and collaborative development.
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
